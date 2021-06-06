@@ -1,0 +1,302 @@
+@media only screen and (max-width: 480px) {
+	#common-page {
+		height: 100%;
+	}
+
+	.nav-link-style {
+		font-size: 18px;
+		letter-spacing: 0px;
+		font-weight: 300 !important;
+	}
+
+	.common-page-title {
+		font-size: 18px;
+		width: 100%;
+		margin-bottom: 20px;
+	}
+
+	.common-page-title h5 {
+		font-size: 18px;
+		width: 100%;
+	}
+
+	.common-page-home-button h5 {
+		font-size: 18px;
+		width: 100%;
+	}
+
+	.common-page-tab {
+		padding: 20px 0;
+		min-height: 450px;
+	}
+
+	.logic-box {
+		margin-top: 55px;
+		padding: 10px;
+	}
+
+	#clock ul li{
+		font-size: 35px;
+		width: 70px;
+	}
+
+
+	/*----------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+	.section-title {
+		padding-bottom: 35px;
+	}
+
+	.section-title h1 {
+		font-size: 1.5em;
+	}
+
+	/* Table Css */
+
+	.table-color {
+		font-size: .7em;
+	}
+
+	.game-image {
+		width: 55px;
+	}
+
+	.btn-two {
+		font-size: .9em;
+	}
+
+	.upcomming-game-image {
+		padding-bottom: 70px;
+	}
+
+	.upcomming-game-image img {
+		width: 75%;
+	}
+
+	.important-link-box ul li {
+		text-align: center;
+	}
+
+	.important-link-box-mobile ul li {
+		list-style: none;
+		display: inline-block;
+		text-align: center;
+	}
+
+	.important-link-box-mobile ul li a {
+		text-decoration: none;
+		color: azure;
+		padding: 0px 5px;
+	}
+
+
+	#shop {
+		padding: 20px 0px;
+	}
+
+	.shop-buttons {
+		width: 45%;
+		margin: 0 auto;
+		padding: 0px 0px 20px;
+	}
+
+	.shop-buttons button {
+		display: inline-block;
+		width: 100%;
+		margin: 10px 0px;
+	}
+}
+
+@media only screen and (min-width: 481px) and (max-width: 575px) {
+	#common-page {
+		height: 100%;
+	}
+
+	.nav-link-style {
+		font-size: 18px;
+		letter-spacing: 0px;
+		font-weight: 300 !important;
+	}
+
+	.common-page-title {
+		font-size: 18px;
+		width: 100%;
+		margin-bottom: 20px;
+	}
+
+	.common-page-title h5 {
+		font-size: 18px;
+		width: 100%;
+	}
+
+	.common-page-home-button h5 {
+		font-size: 18px;
+		width: 100%;
+	}
+
+	.common-page-tab {
+		padding: 20px 0;
+		min-height: 450px;
+	}
+	
+	
+	.section-title {
+		padding-bottom: 35px;
+	}
+
+	.section-title h1 {
+		font-size: 1.5em;
+	}
+
+	/* Table Css */
+
+	.table-color {
+		font-size: .7em;
+	}
+
+	.game-image {
+		width: 55px;
+	}
+
+	.btn-two {
+		font-size: .9em;
+	}
+
+	.upcomming-game-image {
+		padding-bottom: 70px;
+	}
+
+	.upcomming-game-image img {
+		width: 55%;
+	}
+
+	.important-link-box ul li {
+		text-align: center;
+	}
+
+	.shop-buttons button {
+		margin: 20px 10px;
+	}
+
+	.important-link-box-mobile ul li {
+		list-style: none;
+		text-align: center;
+	}
+
+	.important-link-box-mobile ul li a {
+		text-decoration: none;
+		color: azure;
+	}
+}
+
+@media only screen and (min-width: 576px) and (max-width: 768px) {
+	
+	#common-page {
+		height: 100%;
+		background-position:  right bottom;
+	}
+
+	.nav-link-style {
+		font-size: 18px;
+		letter-spacing: 0px;
+		font-weight: 300 !important;
+	}
+
+	.common-page-title {
+		font-size: 18px;
+		width: 100%;
+		margin-bottom: 20px;
+	}
+
+	.common-page-title h5 {
+		font-size: 18px;
+		width: 100%;
+	}
+
+	.common-page-home-button h5 {
+		font-size: 18px;
+		width: 100%;
+	}
+
+	.common-page-tab {
+		padding: 20px 0;
+		min-height: 450px;
+	}
+	
+	.section-title {
+		padding-bottom: 35px;
+	}
+
+	.section-title h1 {
+		font-size: 1.5em;
+	}
+
+	/* Table Css */
+
+	.table-color {
+		font-size: .7em;
+	}
+
+	.game-image {
+		width: 60px;
+	}
+
+	.btn-two {
+		font-size: .9em;
+	}
+
+	.upcomming-game-image {
+		padding-bottom: 70px;
+	}
+
+	.upcomming-game-image img {
+		width: 100%;
+	}
+
+	.shop-buttons button {
+		margin: 10px 7px;
+	}
+
+	.important-link-box-mobile ul li {
+		list-style: none;
+	}
+
+	.important-link-box-mobile ul li a {
+		text-decoration: none;
+		color: azure;
+	}
+}
+
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+	.section-title {
+		padding-bottom: 35px;
+	}
+
+	.section-title h1 {
+		font-size: 1.5em;
+	}
+
+	/* Table Css */
+
+	.table-color {
+		font-size: .7em;
+	}
+
+	.game-image {
+		width: 65px;
+	}
+
+	.btn-two {
+		font-size: .9em;
+	}
+
+	.upcomming-game-image {
+		padding-bottom: 70px;
+	}
+
+	.upcomming-game-image img {
+		width: 100%;
+	}
+}
+
+@media only screen and (min-width: 992px) {}

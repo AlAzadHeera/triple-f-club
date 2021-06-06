@@ -1,0 +1,657 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+html{
+	scroll-behavior: smooth;
+}
+
+body {
+    cursor: url(../img/cursor/pointer.png), auto;
+}
+
+#up{
+	position:  fixed;
+	right:  3%;
+	bottom:  3%;
+	width:  70px;
+	z-index:  9999999999;
+	 cursor: url(../img/cursor/click.png), pointer;
+}
+
+#up img{
+	width:  100%;
+}
+
+.loader {
+	position: fixed;
+	width: 100%;
+    height: 100vh;
+    background: #232323;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 99999999;
+}
+
+.loader img {
+    width: 30%;
+}
+
+.marcellus {
+    font-family: 'Marcellus SC', serif;
+    font-weight: 900;
+}
+
+.robboto-condensed {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.bebas {
+    font-family: 'Bebas Neue', cursive;
+}
+
+a {
+    cursor: url(../img/cursor/click.png), pointer;
+}
+
+button:focus {
+    outline: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    cursor: url(../img/cursor/align-text.png), text;
+    margin: 0;
+}
+
+.card-glass {
+    background: rgba(255, 255, 255, 0.25);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.btn-two {
+    color: #FFF;
+    transition: all 0.5s;
+    position: relative;
+}
+
+.btn-two:hover{
+	color: #FEAB3A;
+	font-weight: bold;
+}
+
+.btn-two span {
+    z-index: 2;
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.btn-two::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    transition: all 0.5s;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.btn-two::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    transition: all 0.5s;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    background-color: rgba(255, 255, 255, 0.1);
+	cursor: url(../img/cursor/click.png), pointer;
+}
+
+.btn-two:hover::before {
+    transform: rotate(-45deg);
+    background-color: rgba(255, 255, 255, 0);
+}
+
+.btn-two:hover::after {
+    transform: rotate(45deg);
+    background-color: rgba(255, 255, 255, 0);
+}
+
+.btn-two a {
+    font-size: 1em;
+}
+
+.circle {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    background: #3f37c9;
+    border-radius: 50%;
+    animation: animate 0.5s linear forwards;
+}
+
+@keyframes animate {
+    0% {
+        width: 0px;
+        height: 0px;
+        opacity: 1;
+    }
+
+    75% {
+        opacity: 1;
+    }
+
+    100% {
+        width: 75px;
+        height: 75px;
+        opacity: 0;
+    }
+}
+
+.table-color {
+    color: #fff;
+    font-size: 1.5em;
+    background-color: transparent;
+}
+
+.section-title {
+    color: azure;
+    padding: 30px 0px 60px 0px;
+}
+
+.section-title::after {
+    content: '';
+    display: block;
+    width: 25%;
+    height: .5px;
+    background: azure;
+    margin: 0 auto;
+}
+
+#upcomming-games {
+    position: relative;
+    padding-bottom: 42px;
+}
+
+.upcomming-game-overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgb(7, 9, 124);
+    opacity: .6;
+}
+
+.upcomming-game-image {}
+
+.upcomming-game-title {}
+
+.game-image {
+    width: 100px;
+}
+
+#app-download-section {
+    background: rgb(2, 2, 48);
+    padding-bottom: 55px;
+}
+
+
+.download-btn {
+    padding: 20px 0px;
+}
+
+
+
+
+#shop {
+    background: url(../img/shop.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding: 60px 0px;
+}
+
+.shop-items {
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+.shop-item {
+    width: 75%;
+    ;
+    margin: 40px auto;
+}
+
+.shop-item-image {
+    margin: 10px 0px 5px;
+}
+
+.shop-item-title {
+    margin: 10px 0px 5px;
+}
+
+.shop-item-price {
+    margin: 10px 0px 5px;
+}
+
+.shop-item-button {
+    margin: 5px 0px 10px;
+}
+
+.shop-item-button button{
+	cursor: url(../img/cursor/click.png), pointer;
+}
+
+.shop-buttons {
+    margin-bottom: 60px;
+}
+
+.shop-buttons button {
+    margin: 0px 7px;
+}
+
+
+
+#important-links {
+    background-image: linear-gradient(to right, #3a0ca3, #006992, #3a0ca3);
+    padding: 35px 0px;
+}
+
+.logo-box {
+    display: flex;
+    min-height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.important-link-box {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.important-link-box ul {
+    position: relative;
+    padding: 0;
+    margin: 0;
+}
+
+.important-link-box ul li {
+    list-style: none;
+    margin: 0px 0px 10px;
+    font-size: 1.2vw;
+}
+
+.important-link-box ul li a {
+    position: relative;
+    color: #b4f16e;
+    font-size: 22px;
+}
+
+.important-link-box ul li::after {
+    content: '';
+    display: block;
+    width: 0%;
+    height: .5px;
+    border-bottom: .5px solid #ffffff;
+    margin: 2px 0px 0px;
+    transition: 0.5s ease-in-out;
+}
+
+.important-link-box ul li:hover::after {
+    width: 100%;
+}
+
+.important-link-box ul li a::before {
+    content: attr(data-text);
+    position: absolute;
+    left: 0;
+    overflow: hidden;
+    color: #fff;
+    white-space: nowrap;
+    transition: 0.5s ease-in-out;
+}
+
+.important-link-box ul:hover li a::before {
+    animation: animate1 1.5s steps(17) forwards;
+}
+
+@keyframes animate1 {
+    0% {
+        width: 156.99px;
+    }
+
+    100% {
+        width: 0;
+    }
+}
+
+#footer {
+    background: rgb(2, 2, 48);
+    color: #fff;
+    padding: 5px 0px;
+}
+
+.important-link-box ul li:hover a::before {
+    animation: animate2 1s steps(17) forwards;
+}
+
+@keyframes animate2 {
+    0% {
+        width: 0px;
+    }
+
+    100% {
+        width: 156.99px;
+    }
+}
+
+#footer {
+    background: rgb(2, 2, 48);
+    color: #fff;
+    padding: 5px 0px;
+}
+
+#hero-section {
+    height: 100vh;
+    position: relative;
+    z-index: 11;
+}
+
+.hero-text {
+    position: absolute;
+    left: 2%;
+    bottom: 8%;
+}
+
+.hero-text-caption h1 {
+    font-size: 2.6em;
+    letter-spacing: -3px;
+    background-color: #FEAB3A;
+    color: #000;
+    mix-blend-mode: screen;
+    padding: 0px 15px;
+    opacity: .999;
+    font-weight: bolder;
+}
+
+.hero-text nav {}
+
+.hero-text nav ul {
+    padding: 10px 0px;
+}
+
+.hero-text nav ul li {
+    list-style: none;
+    display: inline-block;
+}
+
+.hero-text nav ul li a {
+    text-decoration: none;
+    background: #fff;
+    color: #000;
+    font-size: 1.5em;
+    padding: 0px 10px;
+    text-align: center;
+}
+
+.user-box {
+    background: #02021a;
+    position: absolute;
+    left: 25px;
+    top: 25px;
+    color: rgb(233, 241, 248);
+    font-size: 16px;
+    padding: 5px;
+}
+
+.user-box-button i {
+    padding: 3px 4px;
+    background-color: rgb(26, 27, 36);
+    color: cornsilk;
+    cursor: pointer;
+}
+
+.user-box ul {
+    padding: 0;
+    margin: 0;
+}
+
+.user-box ul li {
+    display: inline-block;
+    list-style: none;
+    padding: 0px 3px;
+}
+
+.green {
+    background: #00a136;
+}
+
+.online-circle {
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 1px 1px #0e0d0d1a;
+}
+
+.pulse {
+    animation: pulse-animation 1.5s infinite;
+}
+
+@keyframes pulse-animation {
+    0% {
+        box-shadow: 0 0 0 0px rgba(10, 10, 10, 0.2);
+    }
+
+    100% {
+        box-shadow: 0 0 0 10px rgba(19, 17, 17, 0);
+    }
+}
+
+.login-modal {
+    background-color: #212529;
+    border-radius: 0px;
+}
+
+.login-modal-footer {
+    border-top: 0px;
+}
+
+.login-modal-social-button {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    box-sizing: border-box;
+}
+
+.login-modal-social-button a img {
+    display: block;
+    padding: 0px 5px;
+}
+
+.login-modal-title {
+    color: #fff;
+    padding-bottom: 10px;
+}
+
+
+
+/*----------------------------------------------------------------
+|                  Common Page Css                       |
+------------------------------------------------------------------*/
+
+
+#common-page{
+    height: 100vh;
+    background: url(../img/common-page-background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+	padding:  25px 0px 55px;
+}
+
+.common-page-caption{
+	padding: 25px 0px;
+}
+
+.common-page-title h5 {
+	background: #feab3a;
+	color: #000;
+	width: 50%;
+	margin:  0 auto;
+	padding:  10px 0;
+	font-size: 32px;
+}
+
+.common-page-home-button h5 {
+	background: #feab3a;
+	color: #fff;
+	width: 50%;
+	margin:  0 auto;
+	padding:  10px 0;
+	font-size: 32px;
+	cursor: url(../img/cursor/click.png), pointer;
+}
+
+.common-page-tab{
+	padding: 20px 0;
+	font-size: 22px;
+	border-radius: 0;
+	min-height: 550px;
+}
+
+.nav-tabs .nav-link-style{
+	border: none;
+	background: transparent;
+	border-radius: 0;
+	color: #fff;
+	font-weight: bolder;
+	letter-spacing: 2px;
+}
+
+.nav-tabs .nav-link-style.active{
+	background: transparent;
+	color: #feab3a;
+}
+
+.common-page-tab-content{
+	padding: 20px;
+	color: #fff;
+	text-transform: capitalize;
+}
+
+.common-page-tab-content h6{
+	font-size: 18px;
+}
+
+.number-caption{
+	margin:  20px auto;
+	width:  35%;
+}
+
+
+.number-text{
+	width: 290px;
+	height: 290px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: #fff;
+	box-sizing: border-box;
+	margin:  0 auto;
+}
+
+.number-text h4{
+	font-size:  32px;
+	letter-spacing:  3px;
+	color: #000;
+}
+
+#copyButton{
+	margin: 20px auto;
+	color: #fff;
+	background: none;
+	border: none;
+	display: block;
+}
+
+.copy-result{
+	display: inline-block;
+}
+
+
+.recharge-form{
+	margin-top:  15px;
+}
+
+.recharge-form .card{
+	background: transparent;
+	padding: 25px;
+	border: .5px solid #000;
+	box-sizing: border-box;
+}
+
+#clock{
+    color: #fff !important;
+    width: 95%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#clock ul{
+    padding: 0;
+    margin: 0;
+}
+
+#clock ul li{
+    list-style: none;
+    display: inline-block;
+    font-size: 75px;
+    letter-spacing: 3px;
+    text-align: center;
+    width: 140px;
+}
+
+.logic-box{
+    color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

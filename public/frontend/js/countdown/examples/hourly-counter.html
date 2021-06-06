@@ -1,0 +1,27 @@
+<html>
+	<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="../compiled/flipclock.css">
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+
+	<script src="../compiled/flipclock.js"></script>
+</head>
+
+<body>
+	<div class="clock" style="margin:2em;"></div>
+	<div class="message"></div>
+
+	<script type="text/javascript">
+		var clock;
+
+		$(document).ready(function() {
+
+			clock = $('.clock').FlipClock({
+				clockFace: 'HourlyCounter',
+				countdown: true
+			});
+		});
+	</script>
+
+</body></html>
